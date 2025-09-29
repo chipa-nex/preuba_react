@@ -17,8 +17,9 @@ const ResumenIngenieria = () => {
           </p>
           <p>
             Para poder instalar esta aplicación en su equipo local, debe instalar lo siguiente:<br></br>
-            • npm intall<br></br>
-            • npm install react-router-dom axios
+            • npm install<br></br>
+            • npm install react-router-dom axios<br></br>
+            • npm start
           </p>
         </div>
       </div>
