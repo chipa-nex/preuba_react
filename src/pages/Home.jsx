@@ -46,7 +46,7 @@ const Home = () => {
               type="text"
               id="searchInput"
               className="form-control"
-              placeholder="Buscar por título o contenido"
+              placeholder="Por título o contenido"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />
@@ -69,9 +69,9 @@ const Home = () => {
         </div>
       </div>
 
-
       <PostList posts={currentPosts} onSelectPost={(id) => navigate(`/post/${id}`)} />
       <Pagination currentPage={currentPage} totalPages={totalPages} onPageChange={setCurrentPage} />
+      
     </div>
   );
 };
