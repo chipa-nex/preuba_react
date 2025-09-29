@@ -1,0 +1,43 @@
+/* styles.css */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.major {
+  background-color: #062946;
+}
+
+
+.post-card {
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: border 0.3s, box-shadow 0.3s, transform 0.3s;
+  min-height: 450px;
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-card:hover,
+.post-card.selected {
+  box-shadow: 0 0 0 2px #00a2ff;
+  transform: scale(1.01);
+}
+
+
+/* Estilo para la sección principal (headboard) */
+.headboard {
+  background-color: #f8f9fa; /* Gris claro */
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+
