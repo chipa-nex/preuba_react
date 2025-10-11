@@ -14,9 +14,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
         </li>
 
         <li className="page-item disabled">
-          <span className="page-link">
-            {currentPage} / {totalPages}
-          </span>
+          <span className="page-link"> {currentPage} / {totalPages} </span>
         </li>
 
         <li className={`page-item ${currentPage === totalPages ? 'disabled' : ''}`}>

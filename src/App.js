@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Acerca from "./components/Acerca";
+import Abouth from "./components/Abouth";
 import Footer from "./components/Footer";
 import PostPage from "./pages/PostPage";
 import NavBar from "./components/NavBar";
@@ -14,7 +14,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/post/:id" element={<PostPage />} />
-            <Route path="/acerca" element={<Acerca />} />
+            <Route path="/acerca" element={<Abouth />} />
           </Routes>
         </main>
         <Footer />

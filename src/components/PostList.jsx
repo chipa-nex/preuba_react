@@ -7,7 +7,7 @@ const PostList = ({ posts, onSelectPost }) => {
         {posts.map(post => (
           <div
             key={post.id}
-            className="col-12 col-sm-6 col-md-4 mt-4"
+            className="col-12 col-sm-6 col-md-4 mt-4"     // Esta es la parte donde lo hace responsivo
             onClick={() => onSelectPost(post.id)}
             style={{ cursor: 'pointer' }}
           >
